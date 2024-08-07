@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px 16px 8px 8px;
+  border-radius: 24px;
+  gap: 8px;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  min-width: 32px;
+  min-height: 32px;
+  background-color: #6046ff;
+  color: #fff;
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.input-field:focus {
+  outline: none;
+}
+
+.item {
+  display: flex;
+  gap: 12px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  margin-top: 12px;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 16px;
+  width: 350px;
+  max-height: 421x;
+  overflow-y: auto;
+}
+
+.item-image {
+  width: 100px;
+  height: 120px;
+}
+
+.item-image img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover; // para não perder a qualidade da imagen
+  border-radius: 8px;
+}
+
+.item-title {
+  font-size: 18px;
+  color: #333;
+}
+
+.item-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.item-description {
+  font-size: 14px;
+  color: #666;
+}
+
+.no-result {
+  display: none;
+  text-align: center;
+}
